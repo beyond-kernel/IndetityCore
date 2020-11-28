@@ -38,11 +38,13 @@ namespace WebApp.Identity
                 );
 
 
-            services.AddIdentityCore<MyUser>(options => { });
-            services.AddScoped<IUserStore<MyUser>, UserOnlyStore<MyUser, MyUserDbContext>>();
+            services.AddIdentity<MyUser, IdentityRole>(options => { }).AddEntityFrameworkStores<MyUserDbContext>();
 
+            //services.AddScoped<IUserStore<MyUser>, UserOnlyStore<MyUser, MyUserDbContext>>();
 
-            services.AddAuthentication("cookies").AddCookie("cookies", opt => opt.LoginPath = "/Home/Login");
+            services.ConfigureApplicationCookie(opt => opt.LoginPath = "/Home/Login");
+
+            //services.AddAuthentication("cookies").AddCookie("cookies", opt => opt.LoginPath = "/Home/Login");
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -164,4 +164,4 @@ C:\Users\rafan\OneDrive\Udemy\Autenticação e Autorização com Asp.NET Core MV
 C:\Users\rafan\OneDrive\Udemy\Autenticação e Autorização com Asp.NET Core MVC e Asp.NET Core Web API e .NET Core Identity\Sol.Identity\WebApp.Identity\obj\Debug\netcoreapp3.1\WebApp.Identity.dll
 C:\Users\rafan\OneDrive\Udemy\Autenticação e Autorização com Asp.NET Core MVC e Asp.NET Core Web API e .NET Core Identity\Sol.Identity\WebApp.Identity\obj\Debug\netcoreapp3.1\WebApp.Identity.pdb
 C:\Users\rafan\OneDrive\Udemy\Autenticação e Autorização com Asp.NET Core MVC e Asp.NET Core Web API e .NET Core Identity\Sol.Identity\WebApp.Identity\obj\Debug\netcoreapp3.1\WebApp.Identity.genruntimeconfig.cache
-C:\Users\rafan\OneDrive\Udemy\Autenticação e Autorização com Asp.NET Core MVC e Asp.NET Core Web API e .NET Core Identity\Sol.Identity\WebApp.Identity\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\rafan\OneDrive\Udemy\Autenticação e Autorização com Asp.NET Core MVC e Asp.NET Core Web API e .NET Core Identity\Sol.Identity\WebApp.Identity\obj\Debug\netcoreapp3.1\scopedcss\bundle\WebApp.Identity.styles.css
